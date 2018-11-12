@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "741746773787",
+    "firebase_url": "https://receiptprocessor-58e32.firebaseio.com",
+    "project_id": "receiptprocessor-58e32",
+    "storage_bucket": "receiptprocessor-58e32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741746773787:android:0c5167494c11c7ca",
+        "android_client_info": {
+          "package_name": "com.intuit.receiptprocessor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741746773787-b2auqc6qbsoidlnq5bs56ab6h8v9euq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_U68uOkN73P62zrphGDKIZLVwqXV_WP4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
