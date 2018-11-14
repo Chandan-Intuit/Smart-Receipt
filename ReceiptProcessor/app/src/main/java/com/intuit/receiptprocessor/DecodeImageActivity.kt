@@ -149,10 +149,10 @@ class DecodeImageActivity : AppCompatActivity() {
 
                             try {
                                 val number = java.lang.Double.parseDouble(isNumericTemp)
-                                currentBlock.IsNumeric = 1
+                                currentBlock.isNumeric = 1
                             } catch (e: Exception) {
                                 Log.d("Chandan", e.message)
-                                currentBlock.IsNumeric = 0
+                                currentBlock.isNumeric = 0
                             }
                             mBlockData.add(currentBlock)
                             mBlockText.add(line.text)
