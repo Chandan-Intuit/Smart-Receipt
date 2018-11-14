@@ -1,0 +1,6140 @@
+23:56:03.644 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+23:56:05.235 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+23:56:29.731 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /cats
+23:56:29.763 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario skipped: pathMatches('/test')
+23:56:29.773 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats') && methodIs('post')
+23:56:48.383 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /cats
+23:56:48.389 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/test')
+23:56:48.389 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats') && methodIs('post')
+23:57:00.781 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: POST, uri: /test
+23:57:00.787 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+23:57:13.245 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /test
+23:57:13.250 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+23:57:15.463 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - handling method: GET, uri: /test
+23:57:15.466 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+23:57:17.563 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - handling method: GET, uri: /test
+23:57:17.567 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+23:57:30.343 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - handling method: GET, uri: /test
+23:57:30.347 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+01:27:25.930 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+01:27:27.933 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+01:27:48.958 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+01:27:48.995 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+01:28:41.854 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /test
+01:28:41.861 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+01:29:48.435 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /test
+01:29:48.440 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+01:29:48.548 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /favicon.ico
+01:29:48.552 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario skipped: pathMatches('/test')
+01:29:48.558 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+01:29:48.562 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+01:29:48.565 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats/{id}')
+01:29:48.567 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario skipped: pathMatches('/hardcoded')
+01:29:48.568 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: (empty)
+01:33:30.043 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - handling method: GET, uri: /test
+01:33:30.046 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+01:33:35.472 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - handling method: POST, uri: /test
+01:33:35.475 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+01:33:53.072 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - handling method: POST, uri: /test
+01:33:53.075 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+01:34:06.449 [nioEventLoopGroup-3-9] DEBUG com.intuit.karate - handling method: POST, uri: /test
+01:34:06.454 [nioEventLoopGroup-3-9] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+01:34:34.833 [nioEventLoopGroup-3-10] DEBUG com.intuit.karate - handling method: POST, uri: /test
+01:34:34.848 [nioEventLoopGroup-3-10] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+01:46:04.273 [nioEventLoopGroup-3-11] DEBUG com.intuit.karate - handling method: POST, uri: /test
+01:46:04.277 [nioEventLoopGroup-3-11] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+01:47:16.491 [nioEventLoopGroup-3-12] DEBUG com.intuit.karate - handling method: POST, uri: /test
+01:47:16.494 [nioEventLoopGroup-3-12] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+01:47:17.289 [nioEventLoopGroup-3-13] DEBUG com.intuit.karate - handling method: POST, uri: /test
+01:47:17.292 [nioEventLoopGroup-3-13] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+01:47:17.498 [nioEventLoopGroup-3-14] DEBUG com.intuit.karate - handling method: POST, uri: /test
+01:47:17.501 [nioEventLoopGroup-3-14] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+01:48:18.054 [nioEventLoopGroup-3-15] DEBUG com.intuit.karate - handling method: POST, uri: /test
+01:48:18.060 [nioEventLoopGroup-3-15] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+01:48:18.671 [nioEventLoopGroup-3-16] DEBUG com.intuit.karate - handling method: POST, uri: /test
+01:48:18.674 [nioEventLoopGroup-3-16] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+01:48:18.878 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+01:48:18.881 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+01:48:20.738 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /test
+01:48:20.740 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+02:25:02.436 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+02:25:47.767 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+02:26:54.599 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+02:26:56.165 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+02:27:11.089 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+02:27:11.125 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+02:27:27.069 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /test
+02:27:27.075 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+02:27:39.327 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: POST, uri: /test
+02:27:39.332 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+02:27:39.765 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: POST, uri: /test
+02:27:39.771 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+02:27:39.939 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - handling method: POST, uri: /test
+02:27:39.943 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+02:28:11.186 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+02:28:12.095 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+02:28:15.648 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+02:28:15.681 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+09:37:03.292 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /test
+09:37:03.298 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+09:37:21.233 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: POST, uri: /test
+09:37:21.239 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+09:38:06.965 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: POST, uri: /test
+09:38:06.972 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+09:41:29.407 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - handling method: POST, uri: /test
+09:41:29.418 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+09:43:30.281 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - handling method: POST, uri: /test
+09:43:30.290 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+09:52:15.728 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - handling method: POST, uri: /test
+09:52:15.739 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+09:53:59.943 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - handling method: POST, uri: /test
+09:53:59.946 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+09:55:28.784 [nioEventLoopGroup-3-9] DEBUG com.intuit.karate - handling method: POST, uri: /test
+09:55:28.788 [nioEventLoopGroup-3-9] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+09:56:12.789 [nioEventLoopGroup-3-10] DEBUG com.intuit.karate - handling method: GET, uri: /test
+09:56:12.793 [nioEventLoopGroup-3-10] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+09:56:17.350 [nioEventLoopGroup-3-11] DEBUG com.intuit.karate - handling method: GET, uri: /favicon.ico
+09:56:17.353 [nioEventLoopGroup-3-11] DEBUG com.intuit.karate - scenario skipped: pathMatches('/test')
+09:56:17.359 [nioEventLoopGroup-3-11] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+09:56:17.362 [nioEventLoopGroup-3-11] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+09:56:17.365 [nioEventLoopGroup-3-11] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats/{id}')
+09:56:17.368 [nioEventLoopGroup-3-11] DEBUG com.intuit.karate - scenario skipped: pathMatches('/hardcoded')
+09:56:17.368 [nioEventLoopGroup-3-11] DEBUG com.intuit.karate - scenario matched: (empty)
+09:51:11.890 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+09:51:52.698 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+09:51:54.166 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+09:52:07.828 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /cats
+09:52:07.862 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario skipped: pathMatches('/test')
+09:52:07.877 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats') && methodIs('post')
+09:52:07.900 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: cats[id] = cat, ReferenceError: "cats" is not defined in <eval> at line number 1, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/cats') && methodIs('post'), line: 18
+09:52:07.901 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: cats[id] = cat, ReferenceError: "cats" is not defined in <eval> at line number 1
+09:52:11.727 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /cats
+09:52:11.733 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario skipped: pathMatches('/test')
+09:52:11.733 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats') && methodIs('post')
+09:52:11.735 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: cats[id] = cat, ReferenceError: "cats" is not defined in <eval> at line number 1, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/cats') && methodIs('post'), line: 18
+09:52:11.736 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: cats[id] = cat, ReferenceError: "cats" is not defined in <eval> at line number 1
+09:52:13.065 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: GET, uri: /cats
+09:52:13.071 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/test')
+09:52:13.072 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+09:52:13.079 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats')
+09:52:13.080 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - java.lang.RuntimeException: no variable found with name: cats, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/cats'), line: 22
+09:52:13.081 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server error, 
+no variable found with name: cats
+09:52:13.084 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: GET, uri: /cats
+09:52:13.090 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario skipped: pathMatches('/test')
+09:52:13.091 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+09:52:13.092 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats')
+09:52:13.093 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - java.lang.RuntimeException: no variable found with name: cats, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/cats'), line: 22
+09:52:13.094 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - server error, 
+no variable found with name: cats
+09:52:13.100 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - handling method: GET, uri: /cats
+09:52:13.105 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario skipped: pathMatches('/test')
+09:52:13.106 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+09:52:13.106 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats')
+09:52:13.107 [nioEventLoopGroup-3-5] ERROR com.intuit.karate - java.lang.RuntimeException: no variable found with name: cats, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/cats'), line: 22
+09:52:13.107 [nioEventLoopGroup-3-5] ERROR com.intuit.karate - server error, 
+no variable found with name: cats
+09:52:13.282 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - handling method: GET, uri: /cats
+09:52:13.287 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario skipped: pathMatches('/test')
+09:52:13.287 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+09:52:13.288 [nioEventLoopGroup-3-6] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats')
+09:52:13.288 [nioEventLoopGroup-3-6] ERROR com.intuit.karate - java.lang.RuntimeException: no variable found with name: cats, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/cats'), line: 22
+09:52:13.289 [nioEventLoopGroup-3-6] ERROR com.intuit.karate - server error, 
+no variable found with name: cats
+09:52:13.291 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - handling method: GET, uri: /cats
+09:52:13.294 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - scenario skipped: pathMatches('/test')
+09:52:13.295 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+09:52:13.295 [nioEventLoopGroup-3-7] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats')
+09:52:13.296 [nioEventLoopGroup-3-7] ERROR com.intuit.karate - java.lang.RuntimeException: no variable found with name: cats, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/cats'), line: 22
+09:52:13.296 [nioEventLoopGroup-3-7] ERROR com.intuit.karate - server error, 
+no variable found with name: cats
+09:52:13.300 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - handling method: GET, uri: /cats
+09:52:13.304 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - scenario skipped: pathMatches('/test')
+09:52:13.304 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+09:52:13.305 [nioEventLoopGroup-3-8] DEBUG com.intuit.karate - scenario matched: pathMatches('/cats')
+09:52:13.305 [nioEventLoopGroup-3-8] ERROR com.intuit.karate - java.lang.RuntimeException: no variable found with name: cats, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/cats'), line: 22
+09:52:13.305 [nioEventLoopGroup-3-8] ERROR com.intuit.karate - server error, 
+no variable found with name: cats
+09:52:16.852 [nioEventLoopGroup-3-9] DEBUG com.intuit.karate - handling method: GET, uri: /hardcoded
+09:52:16.858 [nioEventLoopGroup-3-9] DEBUG com.intuit.karate - scenario skipped: pathMatches('/test')
+09:52:16.858 [nioEventLoopGroup-3-9] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+09:52:16.859 [nioEventLoopGroup-3-9] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+09:52:16.863 [nioEventLoopGroup-3-9] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats/{id}')
+09:52:16.866 [nioEventLoopGroup-3-9] DEBUG com.intuit.karate - scenario matched: pathMatches('/hardcoded')
+09:52:16.996 [nioEventLoopGroup-3-10] DEBUG com.intuit.karate - handling method: GET, uri: /favicon.ico
+09:52:17.001 [nioEventLoopGroup-3-10] DEBUG com.intuit.karate - scenario skipped: pathMatches('/test')
+09:52:17.001 [nioEventLoopGroup-3-10] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+09:52:17.002 [nioEventLoopGroup-3-10] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+09:52:17.002 [nioEventLoopGroup-3-10] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats/{id}')
+09:52:17.002 [nioEventLoopGroup-3-10] DEBUG com.intuit.karate - scenario skipped: pathMatches('/hardcoded')
+09:52:17.002 [nioEventLoopGroup-3-10] DEBUG com.intuit.karate - scenario matched: (empty)
+09:53:47.873 [nioEventLoopGroup-3-11] DEBUG com.intuit.karate - handling method: GET, uri: /bad-request
+09:53:47.879 [nioEventLoopGroup-3-11] DEBUG com.intuit.karate - scenario skipped: pathMatches('/test')
+09:53:47.880 [nioEventLoopGroup-3-11] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+09:53:47.881 [nioEventLoopGroup-3-11] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+09:53:47.882 [nioEventLoopGroup-3-11] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats/{id}')
+09:53:47.883 [nioEventLoopGroup-3-11] DEBUG com.intuit.karate - scenario skipped: pathMatches('/hardcoded')
+09:53:47.883 [nioEventLoopGroup-3-11] DEBUG com.intuit.karate - scenario matched: (empty)
+09:54:35.656 [nioEventLoopGroup-3-12] DEBUG com.intuit.karate - handling method: GET, uri: /bad-request
+09:54:35.661 [nioEventLoopGroup-3-12] DEBUG com.intuit.karate - scenario skipped: pathMatches('/test')
+09:54:35.661 [nioEventLoopGroup-3-12] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats') && methodIs('post')
+09:54:35.664 [nioEventLoopGroup-3-12] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats')
+09:54:35.665 [nioEventLoopGroup-3-12] DEBUG com.intuit.karate - scenario skipped: pathMatches('/cats/{id}')
+09:54:35.665 [nioEventLoopGroup-3-12] DEBUG com.intuit.karate - scenario skipped: pathMatches('/hardcoded')
+09:54:35.665 [nioEventLoopGroup-3-12] DEBUG com.intuit.karate - scenario matched: (empty)
+09:56:05.417 [nioEventLoopGroup-3-13] DEBUG com.intuit.karate - handling method: POST, uri: /test
+09:56:05.420 [nioEventLoopGroup-3-13] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+09:56:05.422 [nioEventLoopGroup-3-13] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_backup.py ), <eval>:1:84 Missing close quote
+exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_backup.py )
+                                                                                    ^ in <eval> at line number 1 at column number 84, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/test'), line: 12
+09:56:05.423 [nioEventLoopGroup-3-13] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_backup.py ), <eval>:1:84 Missing close quote
+exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_backup.py )
+                                                                                    ^ in <eval> at line number 1 at column number 84
+09:56:06.339 [nioEventLoopGroup-3-14] DEBUG com.intuit.karate - handling method: GET, uri: /test
+09:56:06.346 [nioEventLoopGroup-3-14] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+09:56:06.347 [nioEventLoopGroup-3-14] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_backup.py ), <eval>:1:84 Missing close quote
+exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_backup.py )
+                                                                                    ^ in <eval> at line number 1 at column number 84, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/test'), line: 12
+09:56:06.348 [nioEventLoopGroup-3-14] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_backup.py ), <eval>:1:84 Missing close quote
+exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_backup.py )
+                                                                                    ^ in <eval> at line number 1 at column number 84
+09:56:10.687 [nioEventLoopGroup-3-15] DEBUG com.intuit.karate - handling method: POST, uri: /test
+09:56:10.691 [nioEventLoopGroup-3-15] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+09:56:10.693 [nioEventLoopGroup-3-15] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_backup.py ), <eval>:1:84 Missing close quote
+exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_backup.py )
+                                                                                    ^ in <eval> at line number 1 at column number 84, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/test'), line: 12
+09:56:10.693 [nioEventLoopGroup-3-15] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_backup.py ), <eval>:1:84 Missing close quote
+exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_backup.py )
+                                                                                    ^ in <eval> at line number 1 at column number 84
+09:56:11.717 [nioEventLoopGroup-3-16] DEBUG com.intuit.karate - handling method: POST, uri: /test
+09:56:11.721 [nioEventLoopGroup-3-16] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+09:56:11.723 [nioEventLoopGroup-3-16] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_backup.py ), <eval>:1:84 Missing close quote
+exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_backup.py )
+                                                                                    ^ in <eval> at line number 1 at column number 84, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/test'), line: 12
+09:56:11.723 [nioEventLoopGroup-3-16] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_backup.py ), <eval>:1:84 Missing close quote
+exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_backup.py )
+                                                                                    ^ in <eval> at line number 1 at column number 84
+09:56:12.403 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+09:56:12.407 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+09:56:12.409 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_backup.py ), <eval>:1:84 Missing close quote
+exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_backup.py )
+                                                                                    ^ in <eval> at line number 1 at column number 84, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/test'), line: 12
+09:56:12.410 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_backup.py ), <eval>:1:84 Missing close quote
+exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_backup.py )
+                                                                                    ^ in <eval> at line number 1 at column number 84
+09:57:06.496 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /test
+09:57:06.501 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+09:57:06.503 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_backup.py ), <eval>:1:84 Missing close quote
+exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_backup.py )
+                                                                                    ^ in <eval> at line number 1 at column number 84, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/test'), line: 12
+09:57:06.503 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_backup.py ), <eval>:1:84 Missing close quote
+exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_backup.py )
+                                                                                    ^ in <eval> at line number 1 at column number 84
+09:57:07.490 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: POST, uri: /test
+09:57:07.493 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+09:57:07.495 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_backup.py ), <eval>:1:84 Missing close quote
+exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_backup.py )
+                                                                                    ^ in <eval> at line number 1 at column number 84, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/test'), line: 12
+09:57:07.495 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_backup.py ), <eval>:1:84 Missing close quote
+exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_backup.py )
+                                                                                    ^ in <eval> at line number 1 at column number 84
+10:00:36.888 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+10:00:38.103 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+10:00:55.149 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:00:55.186 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:00:55.190 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py ), <eval>:1:81 Missing close quote
+exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py )
+                                                                                 ^ in <eval> at line number 1 at column number 81, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/test'), line: 12
+10:00:55.191 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py ), <eval>:1:81 Missing close quote
+exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py )
+                                                                                 ^ in <eval> at line number 1 at column number 81
+10:00:56.256 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:00:56.262 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:00:56.263 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py ), <eval>:1:81 Missing close quote
+exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py )
+                                                                                 ^ in <eval> at line number 1 at column number 81, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/test'), line: 12
+10:00:56.264 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py ), <eval>:1:81 Missing close quote
+exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py )
+                                                                                 ^ in <eval> at line number 1 at column number 81
+10:01:40.268 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:01:40.276 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:01:40.277 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py ), <eval>:1:81 Missing close quote
+exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py )
+                                                                                 ^ in <eval> at line number 1 at column number 81, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/test'), line: 12
+10:01:40.277 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py ), <eval>:1:81 Missing close quote
+exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py )
+                                                                                 ^ in <eval> at line number 1 at column number 81
+10:01:41.122 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:01:41.126 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:01:41.128 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py ), <eval>:1:81 Missing close quote
+exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py )
+                                                                                 ^ in <eval> at line number 1 at column number 81, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/test'), line: 12
+10:01:41.128 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py ), <eval>:1:81 Missing close quote
+exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py )
+                                                                                 ^ in <eval> at line number 1 at column number 81
+10:06:04.618 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+10:06:05.975 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+10:06:12.453 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:06:12.497 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:06:37.360 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: GET, uri: /test
+10:06:37.365 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:06:37.372 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py'), TypeError: exec is not a function in <eval> at line number 1, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/test'), line: 12
+10:06:37.372 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py'), TypeError: exec is not a function in <eval> at line number 1
+10:06:49.920 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:06:49.925 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:06:49.926 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py'), TypeError: exec is not a function in <eval> at line number 1, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/test'), line: 12
+10:06:49.927 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py'), TypeError: exec is not a function in <eval> at line number 1
+10:06:52.331 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:06:52.337 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:06:52.340 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py'), TypeError: exec is not a function in <eval> at line number 1, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/test'), line: 12
+10:06:52.340 [nioEventLoopGroup-3-4] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py'), TypeError: exec is not a function in <eval> at line number 1
+10:06:53.155 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:06:53.160 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:06:53.161 [nioEventLoopGroup-3-5] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py'), TypeError: exec is not a function in <eval> at line number 1, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/test'), line: 12
+10:06:53.162 [nioEventLoopGroup-3-5] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py'), TypeError: exec is not a function in <eval> at line number 1
+10:08:20.291 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+10:08:21.464 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+10:08:34.904 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:08:34.938 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:08:34.950 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec(python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py), ReferenceError: "python3" is not defined in <eval> at line number 1, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/test'), line: 12
+10:08:34.951 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec(python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py), ReferenceError: "python3" is not defined in <eval> at line number 1
+10:08:35.794 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:08:35.800 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:08:35.802 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec(python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py), ReferenceError: "python3" is not defined in <eval> at line number 1, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/test'), line: 12
+10:08:35.802 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec(python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py), ReferenceError: "python3" is not defined in <eval> at line number 1
+10:09:23.709 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+10:09:24.749 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+10:09:30.953 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:09:30.989 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:10:17.768 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:10:17.774 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:10:17.781 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py'), TypeError: exec is not a function in <eval> at line number 1, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/test'), line: 12
+10:10:17.782 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py'), TypeError: exec is not a function in <eval> at line number 1
+10:10:18.768 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:10:18.773 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:10:18.775 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py'), TypeError: exec is not a function in <eval> at line number 1, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/test'), line: 12
+10:10:18.775 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec('python3  /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py'), TypeError: exec is not a function in <eval> at line number 1
+10:10:52.545 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+10:10:53.714 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+10:10:56.545 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:10:56.582 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:11:20.167 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:11:20.176 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:11:20.183 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec('python3 /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py'), TypeError: exec is not a function in <eval> at line number 1, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/test'), line: 12
+10:11:20.184 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec('python3 /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py'), TypeError: exec is not a function in <eval> at line number 1
+10:14:17.725 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+10:14:18.998 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+10:14:20.297 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:14:20.339 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:14:54.734 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:14:54.742 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:17:50.689 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+10:17:51.859 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+10:17:54.342 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:17:54.381 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:17:54.388 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec('python3 /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py --reciept_json '[{"xLeftRel":15,"yTopRel":61,"isTotal":0,"IsNumeric":0,"category":3},{"xLeftRel":12,"yTopRel":69,"isTotal":0,"IsNumeric":0,"category":3},{"xLeftRel":12,"yTopRel":78,"isTotal":0,"IsNumeric":0,"category":3},{"xLeftRel":12,"yTopRel":90,"isTotal":1,"IsNumeric":0,"category":5},{"xLeftRel":72,"yTopRel":61,"isTotal":0,"IsNumeric":1,"category":4},{"xLeftRel":75,"yTopRel":69,"isTotal":0,"IsNumeric":1,"category":4},{"xLeftRel":75,"yTopRel":78,"isTotal":0,"IsNumeric":1,"category":4},{"xLeftRel":70,"yTopRel":90,"isTotal":0,"IsNumeric":1,"category":6},{"xLeftRel":26,"yTopRel":2,"isTotal":0,"IsNumeric":0,"category":0},{"xLeftRel":32,"yTopRel":16,"isTotal":0,"IsNumeric":0,"category":1},{"xLeftRel":24,"yTopRel":26,"isTotal":0,"IsNumeric":0,"category":1},{"xLeftRel":19,"yTopRel":34,"isTotal":0,"IsNumeric":0,"category":2},{"xLeftRel":30,"yTopRel":43,"isTotal":0,"IsNumeric":0,"category":2}]''), <eval>:1:980 Expected , but found 
+exec('python3 /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py --reciept_json '[{"xLeftRel":15,"yTopRel":61,"isTotal":0,"IsNumeric":0,"category":3},{"xLeftRel":12,"yTopRel":69,"isTotal":0,"IsNumeric":0,"category":3},{"xLeftRel":12,"yTopRel":78,"isTotal":0,"IsNumeric":0,"category":3},{"xLeftRel":12,"yTopRel":90,"isTotal":1,"IsNumeric":0,"category":5},{"xLeftRel":72,"yTopRel":61,"isTotal":0,"IsNumeric":1,"category":4},{"xLeftRel":75,"yTopRel":69,"isTotal":0,"IsNumeric":1,"category":4},{"xLeftRel":75,"yTopRel":78,"isTotal":0,"IsNumeric":1,"category":4},{"xLeftRel":70,"yTopRel":90,"isTotal":0,"IsNumeric":1,"category":6},{"xLeftRel":26,"yTopRel":2,"isTotal":0,"IsNumeric":0,"category":0},{"xLeftRel":32,"yTopRel":16,"isTotal":0,"IsNumeric":0,"category":1},{"xLeftRel":24,"yTopRel":26,"isTotal":0,"IsNumeric":0,"category":1},{"xLeftRel":19,"yTopRel":34,"isTotal":0,"IsNumeric":0,"category":2},{"xLeftRel":30,"yTopRel":43,"isTotal":0,"IsNumeric":0,"category":2}]'')
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^ in <eval> at line number 1 at column number 980, called: /Users/aharidoss/Documents/karate-netty/cats-mock.feature, scenario: pathMatches('/test'), line: 12
+10:17:54.390 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec('python3 /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py --reciept_json '[{"xLeftRel":15,"yTopRel":61,"isTotal":0,"IsNumeric":0,"category":3},{"xLeftRel":12,"yTopRel":69,"isTotal":0,"IsNumeric":0,"category":3},{"xLeftRel":12,"yTopRel":78,"isTotal":0,"IsNumeric":0,"category":3},{"xLeftRel":12,"yTopRel":90,"isTotal":1,"IsNumeric":0,"category":5},{"xLeftRel":72,"yTopRel":61,"isTotal":0,"IsNumeric":1,"category":4},{"xLeftRel":75,"yTopRel":69,"isTotal":0,"IsNumeric":1,"category":4},{"xLeftRel":75,"yTopRel":78,"isTotal":0,"IsNumeric":1,"category":4},{"xLeftRel":70,"yTopRel":90,"isTotal":0,"IsNumeric":1,"category":6},{"xLeftRel":26,"yTopRel":2,"isTotal":0,"IsNumeric":0,"category":0},{"xLeftRel":32,"yTopRel":16,"isTotal":0,"IsNumeric":0,"category":1},{"xLeftRel":24,"yTopRel":26,"isTotal":0,"IsNumeric":0,"category":1},{"xLeftRel":19,"yTopRel":34,"isTotal":0,"IsNumeric":0,"category":2},{"xLeftRel":30,"yTopRel":43,"isTotal":0,"IsNumeric":0,"category":2}]''), <eval>:1:980 Expected , but found 
+exec('python3 /Users/aharidoss/Documents/karate-netty/receipt_estimator_GHC.py --reciept_json '[{"xLeftRel":15,"yTopRel":61,"isTotal":0,"IsNumeric":0,"category":3},{"xLeftRel":12,"yTopRel":69,"isTotal":0,"IsNumeric":0,"category":3},{"xLeftRel":12,"yTopRel":78,"isTotal":0,"IsNumeric":0,"category":3},{"xLeftRel":12,"yTopRel":90,"isTotal":1,"IsNumeric":0,"category":5},{"xLeftRel":72,"yTopRel":61,"isTotal":0,"IsNumeric":1,"category":4},{"xLeftRel":75,"yTopRel":69,"isTotal":0,"IsNumeric":1,"category":4},{"xLeftRel":75,"yTopRel":78,"isTotal":0,"IsNumeric":1,"category":4},{"xLeftRel":70,"yTopRel":90,"isTotal":0,"IsNumeric":1,"category":6},{"xLeftRel":26,"yTopRel":2,"isTotal":0,"IsNumeric":0,"category":0},{"xLeftRel":32,"yTopRel":16,"isTotal":0,"IsNumeric":0,"category":1},{"xLeftRel":24,"yTopRel":26,"isTotal":0,"IsNumeric":0,"category":1},{"xLeftRel":19,"yTopRel":34,"isTotal":0,"IsNumeric":0,"category":2},{"xLeftRel":30,"yTopRel":43,"isTotal":0,"IsNumeric":0,"category":2}]'')
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^ in <eval> at line number 1 at column number 980
+10:19:10.932 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+10:19:11.988 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+10:19:16.107 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:19:16.150 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:20:13.076 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:20:13.084 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:22:10.984 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+10:22:12.283 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+10:22:15.781 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:22:15.822 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:23:29.980 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+10:23:31.059 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+10:23:32.646 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:23:32.683 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:25:37.048 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+10:25:38.267 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+10:25:42.120 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:25:42.163 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:27:44.073 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+10:27:45.286 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+10:27:46.594 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:27:46.633 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:29:25.875 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+10:29:27.900 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+10:29:34.758 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:29:34.814 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:31:39.127 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+10:31:40.629 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+10:31:59.597 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:31:59.710 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:31:59.714 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+10:34:53.970 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+10:34:55.278 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+10:34:57.151 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:34:57.200 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:34:57.202 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+10:35:04.832 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] 
+Test set accuracy: 0.931
+
+
+Prediction is "item name" (76.5%), expected "item name"
+
+Prediction is "item name" (93.2%), expected "item name"
+
+Prediction is "item name" (96.9%), expected "item name"
+
+Prediction is "total" (93.9%), expected "total"
+
+Prediction is "item price" (96.1%), expected "item price"
+
+Prediction is "item price" (96.3%), expected "item price"
+
+Prediction is "item price" (90.4%), expected "item price"
+
+Prediction is "total price" (80.9%), expected "total price"
+
+Prediction is "vendor name" (99.6%), expected "vendor name"
+
+Prediction is "vendor address" (77.9%), expected "vendor address"
+
+Prediction is "vendor address" (56.7%), expected "vendor address"
+
+Prediction is "other" (90.7%), expected "other"
+
+Prediction is "other" (76.0%), expected "other"
+
+10:35:25.114 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:35:25.153 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server error, javascript evaluation failed: Amudha, ReferenceError: "Amudha" is not defined in <eval> at line number 1
+10:35:46.153 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:35:46.169 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:35:46.171 [nioEventLoopGroup-3-3] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 11,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+10:35:53.884 [nioEventLoopGroup-3-3] INFO  com.intuit.karate - [print] 
+Test set accuracy: 0.942
+
+
+Prediction is "vendor address" (87.5%), expected "item name"
+
+Prediction is "item name" (95.8%), expected "item name"
+
+Prediction is "item name" (98.2%), expected "item name"
+
+Prediction is "total" (87.1%), expected "total"
+
+Prediction is "item price" (98.6%), expected "item price"
+
+Prediction is "item price" (99.8%), expected "item price"
+
+Prediction is "item price" (98.4%), expected "item price"
+
+Prediction is "total price" (85.2%), expected "total price"
+
+Prediction is "vendor name" (99.3%), expected "vendor name"
+
+Prediction is "vendor address" (75.2%), expected "vendor address"
+
+Prediction is "vendor address" (83.4%), expected "vendor address"
+
+Prediction is "other" (95.4%), expected "other"
+
+Prediction is "other" (85.7%), expected "other"
+
+09:41:29.587 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+09:41:31.014 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+09:42:08.203 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: GET, uri: /test
+09:42:08.265 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+09:42:08.275 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: request, ReferenceError: "request" is not defined in <eval> at line number 1, called: /Users/snehan/tensorflow/karate-netty/cats-mock.feature, scenario: pathMatches('/test'), line: 13
+09:42:08.275 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: request, ReferenceError: "request" is not defined in <eval> at line number 1
+09:44:35.905 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /test
+09:44:35.913 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+09:44:35.915 [nioEventLoopGroup-3-2] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+09:44:41.439 [nioEventLoopGroup-3-2] INFO  com.intuit.karate - [print] 
+Test set accuracy: 0.888
+
+
+Prediction is "item name" (63.3%), expected "item name"
+
+Prediction is "item name" (94.5%), expected "item name"
+
+Prediction is "item name" (96.6%), expected "item name"
+
+Prediction is "total" (85.3%), expected "total"
+
+Prediction is "item price" (99.8%), expected "item price"
+
+Prediction is "item price" (99.7%), expected "item price"
+
+Prediction is "item price" (97.8%), expected "item price"
+
+Prediction is "total price" (85.3%), expected "total price"
+
+Prediction is "vendor name" (89.6%), expected "vendor name"
+
+Prediction is "vendor address" (59.9%), expected "vendor address"
+
+Prediction is "other" (58.3%), expected "vendor address"
+
+Prediction is "other" (71.2%), expected "other"
+
+Prediction is "other" (74.5%), expected "other"
+
+09:54:12.615 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: POST, uri: /test
+09:54:12.620 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+09:54:12.621 [nioEventLoopGroup-3-3] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+09:54:16.172 [nioEventLoopGroup-3-3] INFO  com.intuit.karate - [print] 
+Test set accuracy: 0.900
+
+
+Prediction is "item name" (66.9%), expected "item name"
+
+Prediction is "item name" (96.7%), expected "item name"
+
+Prediction is "item name" (98.4%), expected "item name"
+
+Prediction is "total" (95.1%), expected "total"
+
+Prediction is "item price" (99.7%), expected "item price"
+
+Prediction is "item price" (99.8%), expected "item price"
+
+Prediction is "item price" (96.2%), expected "item price"
+
+Prediction is "total price" (95.9%), expected "total price"
+
+Prediction is "vendor name" (84.8%), expected "vendor name"
+
+Prediction is "vendor address" (66.2%), expected "vendor address"
+
+Prediction is "vendor address" (66.5%), expected "vendor address"
+
+Prediction is "other" (74.6%), expected "other"
+
+Prediction is "vendor address" (59.9%), expected "other"
+
+09:57:23.865 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: POST, uri: /test
+09:57:23.869 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+09:57:23.870 [nioEventLoopGroup-3-4] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+09:57:27.356 [nioEventLoopGroup-3-4] INFO  com.intuit.karate - [print] 
+Test set accuracy: 0.846
+
+
+Prediction is "item name" (61.2%), expected "item name"
+
+Prediction is "item name" (94.5%), expected "item name"
+
+Prediction is "item name" (98.2%), expected "item name"
+
+Prediction is "item name" (65.4%), expected "total"
+
+Prediction is "item price" (96.9%), expected "item price"
+
+Prediction is "item price" (97.1%), expected "item price"
+
+Prediction is "item price" (91.5%), expected "item price"
+
+Prediction is "total price" (85.5%), expected "total price"
+
+Prediction is "vendor name" (85.6%), expected "vendor name"
+
+Prediction is "vendor address" (51.0%), expected "vendor address"
+
+Prediction is "vendor address" (50.3%), expected "vendor address"
+
+Prediction is "other" (60.2%), expected "other"
+
+Prediction is "other" (40.6%), expected "other"
+
+10:20:32.368 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+10:20:33.782 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+10:20:53.475 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:20:53.541 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:20:53.543 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+10:21:00.048 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] 
+Test set accuracy: 0.915
+
+
+Prediction is "item name" (82.4%), expected "item name"
+
+Prediction is "item name" (99.7%), expected "item name"
+
+Prediction is "item name" (100.0%), expected "item name"
+
+Prediction is "total" (97.8%), expected "total"
+
+Prediction is "item price" (98.1%), expected "item price"
+
+Prediction is "item price" (99.2%), expected "item price"
+
+Prediction is "item price" (97.0%), expected "item price"
+
+Prediction is "total price" (99.2%), expected "total price"
+
+Prediction is "vendor name" (93.4%), expected "vendor name"
+
+Prediction is "vendor address" (94.1%), expected "vendor address"
+
+Prediction is "vendor address" (94.6%), expected "vendor address"
+
+Prediction is "other" (76.8%), expected "other"
+
+Prediction is "vendor address" (66.0%), expected "other"
+
+14:17:43.239 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+14:17:44.684 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+14:18:40.368 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+14:18:40.443 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+14:18:40.445 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+14:18:41.742 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] 
+14:21:24.152 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /test
+14:21:24.162 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+14:21:24.163 [nioEventLoopGroup-3-2] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+14:21:25.322 [nioEventLoopGroup-3-2] INFO  com.intuit.karate - [print] 
+14:21:29.515 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: POST, uri: /test
+14:21:29.519 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+14:21:29.520 [nioEventLoopGroup-3-3] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+14:21:30.646 [nioEventLoopGroup-3-3] INFO  com.intuit.karate - [print] 
+14:21:38.197 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: POST, uri: /test
+14:21:38.202 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+14:21:38.204 [nioEventLoopGroup-3-4] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+14:21:39.340 [nioEventLoopGroup-3-4] INFO  com.intuit.karate - [print] 
+14:22:00.724 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+14:22:01.725 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+14:25:19.818 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+14:25:20.958 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+14:25:25.932 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+14:25:25.988 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+14:25:25.989 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+14:25:26.036 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec('python3 /Users/snehan/tensorflow/receipt_estimator_GHC.py --reciept_json '  + json), java.io.IOException: Cannot run program "python3": error=2, No such file or directory, called: /Users/snehan/tensorflow/karate-netty/cats-mock.feature, scenario: pathMatches('/test'), line: 15
+14:25:26.038 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec('python3 /Users/snehan/tensorflow/receipt_estimator_GHC.py --reciept_json '  + json), java.io.IOException: Cannot run program "python3": error=2, No such file or directory
+14:30:42.644 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+14:30:43.800 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+14:30:47.555 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+14:30:47.625 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+14:30:47.627 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+14:30:47.711 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] 
+14:30:49.475 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /test
+14:30:49.482 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+14:30:49.483 [nioEventLoopGroup-3-2] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+14:30:49.513 [nioEventLoopGroup-3-2] INFO  com.intuit.karate - [print] 
+14:30:49.925 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: POST, uri: /test
+14:30:49.930 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+14:30:49.931 [nioEventLoopGroup-3-3] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+14:30:49.958 [nioEventLoopGroup-3-3] INFO  com.intuit.karate - [print] 
+14:30:50.348 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: POST, uri: /test
+14:30:50.352 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+14:30:50.353 [nioEventLoopGroup-3-4] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+14:30:50.380 [nioEventLoopGroup-3-4] INFO  com.intuit.karate - [print] 
+14:33:34.567 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+14:33:35.628 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+14:33:39.985 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+14:33:40.035 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+14:33:40.037 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+14:33:41.164 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] 
+14:34:05.016 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /test
+14:34:05.024 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+14:34:05.025 [nioEventLoopGroup-3-2] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+14:34:06.118 [nioEventLoopGroup-3-2] INFO  com.intuit.karate - [print] 
+14:34:10.743 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: POST, uri: /test
+14:34:10.749 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+14:34:10.751 [nioEventLoopGroup-3-3] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+14:34:11.866 [nioEventLoopGroup-3-3] INFO  com.intuit.karate - [print] 
+14:36:05.270 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+14:36:06.352 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+14:36:11.126 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+14:36:11.187 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+14:36:11.189 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+14:36:14.749 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] 
+Test set accuracy: 0.873
+
+["item name", "item name", "item name", "total", "item price", "item price", "item price", "total price", "vendor name", "vendor address", "vendor address", "other", "other"]
+
+14:37:02.510 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+14:37:03.438 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+14:37:11.523 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+14:37:11.582 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+14:37:11.583 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+14:37:15.076 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] ["item name", "item name", "item name", "total", "item price", "item price", "item price", "total price", "vendor name", "vendor address", "vendor address", "other", "other"]
+
+14:41:08.381 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /test
+14:41:08.390 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+14:41:08.392 [nioEventLoopGroup-3-2] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+14:41:12.205 [nioEventLoopGroup-3-2] INFO  com.intuit.karate - [print] ["item name", "item name", "item name", "total", "item price", "item price", "item price", "total price", "vendor name", "vendor address", "vendor address", "other", "vendor address"]
+
+13:47:14.025 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+13:47:15.362 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+08:41:16.390 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+08:41:17.797 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+08:41:30.363 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+08:41:30.385 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server error, javascript evaluation failed: python receipt_estimator_GHC.py --reciept_json '[{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":15,"yTopRel":61},{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":12,"yTopRel":69},{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":12,"yTopRel":78},{"category":3,"IsNumeric":0,"isTotal":1,"xLeftRel":12,"yTopRel":90},{"category":3,"IsNumeric":1,"isTotal":0,"xLeftRel":72,"yTopRel":61},{"category":3,"IsNumeric":1,"isTotal":0,"xLeftRel":75,"yTopRel":69},{"category":3,"IsNumeric":1,"isTotal":0,"xLeftRel":75,"yTopRel":78},{"category":3,"IsNumeric":1,"isTotal":0,"xLeftRel":70,"yTopRel":90},{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":26,"yTopRel":2},{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":32,"yTopRel":16},{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":24,"yTopRel":26},{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":19,"yTopRel":34},{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":30,"yTopRel":43}]', <eval>:1:7 Expected ; but found receipt_estimator_GHC
+python receipt_estimator_GHC.py --reciept_json '[{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":15,"yTopRel":61},{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":12,"yTopRel":69},{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":12,"yTopRel":78},{"category":3,"IsNumeric":0,"isTotal":1,"xLeftRel":12,"yTopRel":90},{"category":3,"IsNumeric":1,"isTotal":0,"xLeftRel":72,"yTopRel":61},{"category":3,"IsNumeric":1,"isTotal":0,"xLeftRel":75,"yTopRel":69},{"category":3,"IsNumeric":1,"isTotal":0,"xLeftRel":75,"yTopRel":78},{"category":3,"IsNumeric":1,"isTotal":0,"xLeftRel":70,"yTopRel":90},{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":26,"yTopRel":2},{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":32,"yTopRel":16},{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":24,"yTopRel":26},{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":19,"yTopRel":34},{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":30,"yTopRel":43}]'
+       ^ in <eval> at line number 1 at column number 7
+08:42:07.639 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /test
+08:42:07.651 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server error, javascript evaluation failed: python receipt_estimator_GHC.py --reciept_json '[{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":15,"yTopRel":61},{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":12,"yTopRel":69},{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":12,"yTopRel":78},{"category":3,"IsNumeric":0,"isTotal":1,"xLeftRel":12,"yTopRel":90},{"category":3,"IsNumeric":1,"isTotal":0,"xLeftRel":72,"yTopRel":61},{"category":3,"IsNumeric":1,"isTotal":0,"xLeftRel":75,"yTopRel":69},{"category":3,"IsNumeric":1,"isTotal":0,"xLeftRel":75,"yTopRel":78},{"category":3,"IsNumeric":1,"isTotal":0,"xLeftRel":70,"yTopRel":90},{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":26,"yTopRel":2},{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":32,"yTopRel":16},{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":24,"yTopRel":26},{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":19,"yTopRel":34},{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":30,"yTopRel":43}]', <eval>:1:7 Expected ; but found receipt_estimator_GHC
+python receipt_estimator_GHC.py --reciept_json '[{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":15,"yTopRel":61},{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":12,"yTopRel":69},{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":12,"yTopRel":78},{"category":3,"IsNumeric":0,"isTotal":1,"xLeftRel":12,"yTopRel":90},{"category":3,"IsNumeric":1,"isTotal":0,"xLeftRel":72,"yTopRel":61},{"category":3,"IsNumeric":1,"isTotal":0,"xLeftRel":75,"yTopRel":69},{"category":3,"IsNumeric":1,"isTotal":0,"xLeftRel":75,"yTopRel":78},{"category":3,"IsNumeric":1,"isTotal":0,"xLeftRel":70,"yTopRel":90},{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":26,"yTopRel":2},{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":32,"yTopRel":16},{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":24,"yTopRel":26},{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":19,"yTopRel":34},{"category":3,"IsNumeric":0,"isTotal":0,"xLeftRel":30,"yTopRel":43}]'
+       ^ in <eval> at line number 1 at column number 7
+08:43:06.147 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+08:43:07.009 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+08:43:14.503 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+08:43:15.395 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+08:43:23.272 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+08:43:23.338 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+08:43:23.339 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+08:43:26.547 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] ["item name", "item name", "item name", "total", "item price", "item price", "item price", "total price", "vendor name", "vendor address", "vendor address", "other", "other"]
+
+08:43:51.050 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+08:43:51.954 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+08:43:58.969 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+08:43:59.028 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+08:43:59.030 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+08:44:02.225 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] ["item name", "item name", "item name", "total", "item price", "item price", "item price", "total price", "vendor name", "vendor address", "vendor address", "other", "vendor address"]
+
+08:47:40.748 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+08:47:41.820 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+08:47:45.501 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+08:47:45.559 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+08:47:45.561 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+08:47:49.182 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] ["item name", "item name", "item name", "item name", "item price", "item price", "item price", "total price", "vendor name", "other", "vendor address", "other", "other"]
+
+09:42:21.050 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /test
+09:42:21.058 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+09:42:21.059 [nioEventLoopGroup-3-2] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+09:42:24.030 [nioEventLoopGroup-3-2] INFO  com.intuit.karate - [print] 
+09:42:47.999 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: POST, uri: /test
+09:42:48.003 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+09:42:48.004 [nioEventLoopGroup-3-3] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+09:42:51.025 [nioEventLoopGroup-3-3] INFO  com.intuit.karate - [print] 
+09:48:16.008 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+09:48:17.506 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+09:48:19.550 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+09:48:19.606 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+09:48:19.608 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+09:48:22.819 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] 
+09:50:42.316 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+09:50:43.399 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+09:50:47.244 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+09:50:47.302 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+09:50:47.303 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+09:50:50.344 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] 
+10:01:59.544 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+10:02:00.456 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+10:02:09.171 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:02:09.235 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:02:09.237 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+10:02:12.268 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] ["item name", "item name", "item name", "item name", "item price", "item price", "item price", "item price", "vendor name", "other", "other", "other", "other"]
+
+10:04:24.333 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:04:24.341 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:04:24.342 [nioEventLoopGroup-3-2] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+10:04:25.461 [nioEventLoopGroup-3-2] INFO  com.intuit.karate - [print] 
+12:15:03.180 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+12:15:04.280 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+12:15:08.649 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+12:15:08.712 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+12:15:08.715 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+12:15:09.890 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] 
+12:22:01.279 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+12:22:02.445 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+12:22:04.637 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+12:22:04.701 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+12:22:04.703 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+12:22:05.888 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] 
+12:22:07.509 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /test
+12:22:07.516 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+12:22:07.517 [nioEventLoopGroup-3-2] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+12:22:08.618 [nioEventLoopGroup-3-2] INFO  com.intuit.karate - [print] 
+12:22:11.662 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: POST, uri: /test
+12:22:11.666 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+12:22:11.667 [nioEventLoopGroup-3-3] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+12:22:12.797 [nioEventLoopGroup-3-3] INFO  com.intuit.karate - [print] 
+12:23:07.613 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+12:23:08.510 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+12:23:12.415 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+12:23:12.467 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+12:23:12.469 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+12:23:15.449 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] ["item name", "item name", "item name", "total", "item price", "item price", "item price", "total price", "vendor name", "vendor address", "other", "other", "vendor address"]
+
+12:24:51.480 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+12:24:52.586 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+12:24:55.098 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+12:24:55.161 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+12:24:55.163 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+12:31:16.687 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+12:31:17.786 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+12:31:20.258 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+12:31:20.324 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+12:31:20.326 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+12:31:23.362 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] ["item name", "item name", "item name", "total", "item price", "item price", "item price", "total price", "vendor name", "vendor address", "vendor address", "other", "vendor address"]
+
+12:47:22.406 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+12:47:23.447 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+12:47:30.952 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+12:47:31.015 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+12:47:31.017 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+12:47:33.983 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] ["item name", "item name", "item name", "total", "item price", "item price", "item price", "total price", "vendor name", "vendor address", "vendor address", "other", "other"]
+
+12:32:38.898 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+12:34:20.673 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+12:34:21.860 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+14:00:05.338 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+14:00:06.564 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+14:00:15.038 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+14:00:15.135 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+14:00:15.137 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 12,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "IsNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "IsNumeric": 0,
+    "category": 2
+  }
+]
+
+14:00:15.153 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec('python receipt_estimator_final.py --reciept_json '  + json), ReferenceError: "runtime" is not defined in <eval> at line number 1, called: /Users/aharidoss/GHC_ReceiptCategorizer/karate-netty/GHC-mock.feature, scenario: pathMatches('/test'), line: 12
+14:00:15.154 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec('python receipt_estimator_final.py --reciept_json '  + json), ReferenceError: "runtime" is not defined in <eval> at line number 1
+10:28:17.259 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+10:28:18.491 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+10:28:23.600 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:28:23.702 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:28:23.704 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 12,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "isNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  }
+]
+
+10:28:23.723 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec('python receipt_estimator_final.py --reciept_json '  + json), ReferenceError: "runtime" is not defined in <eval> at line number 1, called: /Users/aharidoss/Smart-Receipt/karate-netty/GHC-mock.feature, scenario: pathMatches('/test'), line: 12
+10:28:23.724 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec('python receipt_estimator_final.py --reciept_json '  + json), ReferenceError: "runtime" is not defined in <eval> at line number 1
+10:28:25.345 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:28:25.358 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:28:25.359 [nioEventLoopGroup-3-2] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 12,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "isNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  }
+]
+
+10:28:25.361 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec('python receipt_estimator_final.py --reciept_json '  + json), ReferenceError: "runtime" is not defined in <eval> at line number 1, called: /Users/aharidoss/Smart-Receipt/karate-netty/GHC-mock.feature, scenario: pathMatches('/test'), line: 12
+10:28:25.361 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec('python receipt_estimator_final.py --reciept_json '  + json), ReferenceError: "runtime" is not defined in <eval> at line number 1
+10:28:26.113 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:28:26.118 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:28:26.119 [nioEventLoopGroup-3-3] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 12,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "isNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  }
+]
+
+10:28:26.122 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec('python receipt_estimator_final.py --reciept_json '  + json), ReferenceError: "runtime" is not defined in <eval> at line number 1, called: /Users/aharidoss/Smart-Receipt/karate-netty/GHC-mock.feature, scenario: pathMatches('/test'), line: 12
+10:28:26.122 [nioEventLoopGroup-3-3] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec('python receipt_estimator_final.py --reciept_json '  + json), ReferenceError: "runtime" is not defined in <eval> at line number 1
+10:28:57.339 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+10:28:58.157 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+10:29:00.413 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:29:00.505 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:29:00.507 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 12,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "isNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  }
+]
+
+10:29:00.527 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec('python receipt_estimator_completed.py --reciept_json '  + json), ReferenceError: "runtime" is not defined in <eval> at line number 1, called: /Users/aharidoss/Smart-Receipt/karate-netty/GHC-mock.feature, scenario: pathMatches('/test'), line: 12
+10:29:00.528 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec('python receipt_estimator_completed.py --reciept_json '  + json), ReferenceError: "runtime" is not defined in <eval> at line number 1
+10:29:01.241 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:29:01.248 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:29:01.249 [nioEventLoopGroup-3-2] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 12,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "isNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  }
+]
+
+10:29:01.251 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec('python receipt_estimator_completed.py --reciept_json '  + json), ReferenceError: "runtime" is not defined in <eval> at line number 1, called: /Users/aharidoss/Smart-Receipt/karate-netty/GHC-mock.feature, scenario: pathMatches('/test'), line: 12
+10:29:01.251 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec('python receipt_estimator_completed.py --reciept_json '  + json), ReferenceError: "runtime" is not defined in <eval> at line number 1
+10:29:29.354 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+10:29:30.178 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+10:29:32.940 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:29:33.026 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:29:33.028 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 12,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "isNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  }
+]
+
+10:29:33.046 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec('python3 receipt_estimator_completed.py --reciept_json '  + json), ReferenceError: "runtime" is not defined in <eval> at line number 1, called: /Users/aharidoss/Smart-Receipt/karate-netty/GHC-mock.feature, scenario: pathMatches('/test'), line: 12
+10:29:33.046 [nioEventLoopGroup-3-1] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec('python3 receipt_estimator_completed.py --reciept_json '  + json), ReferenceError: "runtime" is not defined in <eval> at line number 1
+10:29:33.698 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:29:33.706 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:29:33.707 [nioEventLoopGroup-3-2] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 12,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "isNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  }
+]
+
+10:29:33.709 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - java.lang.RuntimeException: javascript evaluation failed: exec('python3 receipt_estimator_completed.py --reciept_json '  + json), ReferenceError: "runtime" is not defined in <eval> at line number 1, called: /Users/aharidoss/Smart-Receipt/karate-netty/GHC-mock.feature, scenario: pathMatches('/test'), line: 12
+10:29:33.709 [nioEventLoopGroup-3-2] ERROR com.intuit.karate - server error, 
+javascript evaluation failed: exec('python3 receipt_estimator_completed.py --reciept_json '  + json), ReferenceError: "runtime" is not defined in <eval> at line number 1
+10:31:10.661 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+10:31:11.747 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+10:31:42.394 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:31:42.477 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:31:42.480 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 12,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "isNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  }
+]
+
+10:31:42.642 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] 
+10:32:01.656 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+10:32:02.501 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+10:32:24.245 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:32:24.326 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:32:24.328 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 12,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "isNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  }
+]
+
+10:32:30.341 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] 
+Test set accuracy: 0.850
+
+["vendor address", "item name", "item name", "total", "item price", "item price", "item price", "total price", "vendor name", "vendor address", "vendor address", "other", "other"]
+
+10:33:27.598 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /test
+10:33:27.605 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+10:33:27.607 [nioEventLoopGroup-3-2] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 12,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "isNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  }
+]
+
+10:33:32.653 [nioEventLoopGroup-3-2] INFO  com.intuit.karate - [print] 
+Test set accuracy: 0.892
+
+["vendor address", "item name", "item name", "total", "vendor name", "item price", "item price", "total price", "vendor name", "vendor address", "vendor address", "other", "vendor address"]
+
+11:37:21.497 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: POST, uri: /test
+11:37:21.502 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+11:37:21.504 [nioEventLoopGroup-3-3] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 12,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "isNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  }
+]
+
+11:37:28.602 [nioEventLoopGroup-3-3] INFO  com.intuit.karate - [print] 
+Test set accuracy: 0.892
+
+["vendor address", "item name", "item name", "total", "vendor name", "item price", "item price", "total price", "vendor name", "vendor address", "vendor address", "other", "vendor address"]
+
+13:52:05.691 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
+13:52:07.058 [main] INFO  c.intuit.karate.netty.FeatureServer - server started - http://127.0.0.1:8080
+13:52:50.045 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - handling method: POST, uri: /test
+13:52:50.131 [nioEventLoopGroup-3-1] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+13:52:50.133 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 12,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "isNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  }
+]
+
+13:52:57.016 [nioEventLoopGroup-3-1] INFO  com.intuit.karate - [print] 
+Test set accuracy: 0.858
+
+["vendor address", "item name", "item name", "total", "item price", "item price", "item price", "total price", "vendor name", "vendor address", "vendor address", "other", "vendor address"]
+
+14:00:42.482 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - handling method: POST, uri: /test
+14:00:42.489 [nioEventLoopGroup-3-2] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+14:00:42.490 [nioEventLoopGroup-3-2] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 12,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "isNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  }
+]
+
+14:00:47.739 [nioEventLoopGroup-3-2] INFO  com.intuit.karate - [print] 
+Test set accuracy: 0.908
+
+["vendor address", "item name", "item name", "total", "item price", "item price", "item price", "total price", "vendor name", "vendor address", "vendor address", "other", "other"]
+
+14:04:37.962 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - handling method: POST, uri: /test
+14:04:37.968 [nioEventLoopGroup-3-3] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+14:04:37.970 [nioEventLoopGroup-3-3] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 12,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "isNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  }
+]
+
+14:04:43.723 [nioEventLoopGroup-3-3] INFO  com.intuit.karate - [print] 
+Test set accuracy: 0.854
+
+["vendor address", "item name", "item name", "total", "vendor name", "item price", "item price", "total price", "vendor name", "other", "vendor address", "other", "vendor address"]
+
+14:06:52.587 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - handling method: POST, uri: /test
+14:06:52.595 [nioEventLoopGroup-3-4] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+14:06:52.595 [nioEventLoopGroup-3-4] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 12,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "isNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  }
+]
+
+14:06:57.834 [nioEventLoopGroup-3-4] INFO  com.intuit.karate - [print] 
+Test set accuracy: 0.869
+
+["vendor address", "item name", "item name", "total", "vendor name", "item price", "item price", "total price", "vendor name", "vendor address", "vendor address", "other", "vendor address"]
+
+14:07:35.069 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - handling method: POST, uri: /test
+14:07:35.073 [nioEventLoopGroup-3-5] DEBUG com.intuit.karate - scenario matched: pathMatches('/test')
+14:07:35.075 [nioEventLoopGroup-3-5] INFO  com.intuit.karate - [print] [
+  {
+    "xLeftRel": 15,
+    "yTopRel": 12,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 3
+  },
+  {
+    "xLeftRel": 12,
+    "yTopRel": 90,
+    "isTotal": 1,
+    "isNumeric": 0,
+    "category": 5
+  },
+  {
+    "xLeftRel": 72,
+    "yTopRel": 61,
+    "isTotal": 0,
+    "IsNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 69,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 75,
+    "yTopRel": 78,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 4
+  },
+  {
+    "xLeftRel": 70,
+    "yTopRel": 90,
+    "isTotal": 0,
+    "isNumeric": 1,
+    "category": 6
+  },
+  {
+    "xLeftRel": 26,
+    "yTopRel": 2,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 0
+  },
+  {
+    "xLeftRel": 32,
+    "yTopRel": 16,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 24,
+    "yTopRel": 26,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 1
+  },
+  {
+    "xLeftRel": 19,
+    "yTopRel": 34,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  },
+  {
+    "xLeftRel": 30,
+    "yTopRel": 43,
+    "isTotal": 0,
+    "isNumeric": 0,
+    "category": 2
+  }
+]
+
+14:07:40.036 [nioEventLoopGroup-3-5] INFO  com.intuit.karate - [print] 
+Test set accuracy: 0.885
+
+["vendor address", "item name", "item name", "total", "vendor name", "item price", "item price", "total price", "vendor name", "other", "vendor address", "vendor address", "other"]
+

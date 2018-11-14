@@ -1,0 +1,24 @@
+
+
+#1.Mock a webservice using karate netty
+
+Download the Karate Netty folder.
+from that folder run "java -jar karate-0.8.0.1.jar -m GHC-mock.feature -p 8080" from command line
+
+#3. Automate smart receipt post request
+
+
+#3. Assert the reponse
+
+ hint:  * match
+
+#4. optimize test scenario: call .json files in the feature
+
+hint: call read
+
+#5. optimize test scenario: set and remove method to modify the request bosy
+
+hint: use set / remove keyword
+
+
+
