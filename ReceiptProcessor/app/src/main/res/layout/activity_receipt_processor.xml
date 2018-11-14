@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ReceiptActivity_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReceiptProcessorActivity">
+
+    <ImageView
+        android:id="@+id/receipt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/gallery" />
+    <ImageView
+        android:id="@+id/gallery"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/ic_action_photo_library"/>
+
+    <ImageView
+        android:id="@+id/camera"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_action_camera"/>
+
+
+
+</RelativeLayout>
