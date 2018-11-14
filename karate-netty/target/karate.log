@@ -6138,3 +6138,4 @@ Test set accuracy: 0.885
 
 ["vendor address", "item name", "item name", "total", "vendor name", "item price", "item price", "total price", "vendor name", "other", "vendor address", "vendor address", "other"]
 
+20:49:43.712 [main] INFO  com.intuit.karate.netty.Main - Karate version: 0.8.0.1
